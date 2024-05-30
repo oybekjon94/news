@@ -38,14 +38,16 @@ fun OnBoardingPage(
             painter = painterResource(id = page.image),
             contentDescription = null,
             contentScale = ContentScale.Crop
-            )
+        )
         Spacer(modifier = Modifier.height(MediumPadding1))
-        Text(text = page.title,
+        Text(
+            text = page.title,
             modifier = Modifier.padding(horizontal = MediumPadding2),
             style = MaterialTheme.typography.displaySmall.copy(fontWeight = FontWeight.Bold),
             color = colorResource(id = R.color.display_small)
         )
-        Text(text = page.description,
+        Text(
+            text = page.description,
             modifier = Modifier.padding(horizontal = MediumPadding2),
             style = MaterialTheme.typography.bodyMedium,
             color = colorResource(id = R.color.text_medium)
@@ -56,7 +58,7 @@ fun OnBoardingPage(
 @Preview(showBackground = true)
 @Preview(uiMode = UI_MODE_NIGHT_YES, showBackground = true)
 @Composable
-fun OnBoardingPagePreview(){
+fun OnBoardingPagePreview() {
     NewsTheme {
         OnBoardingPage(
             modifier = Modifier,
