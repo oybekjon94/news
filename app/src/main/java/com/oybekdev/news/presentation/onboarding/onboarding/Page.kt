@@ -1,4 +1,4 @@
-package com.oybekdev.news.presentation.onboarding
+package com.oybekdev.news.presentation.onboarding.onboarding
 
 import androidx.annotation.DrawableRes
 import com.oybekdev.news.R

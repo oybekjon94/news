@@ -1,4 +1,4 @@
-package com.oybekdev.news.presentation.onboarding
+package com.oybekdev.news.presentation.onboarding.onboarding
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.Arrangement
@@ -18,7 +18,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
 import com.oybekdev.news.presentation.common.NewsButton
 import com.oybekdev.news.presentation.common.NewsTextButton
 import com.oybekdev.news.presentation.onboarding.Dimens.MediumPadding2

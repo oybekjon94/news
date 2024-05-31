@@ -1,7 +1,6 @@
 package com.oybekdev.news.presentation.onboarding.components
 
 import android.content.res.Configuration.UI_MODE_NIGHT_YES
-import android.widget.Space
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -21,8 +20,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.oybekdev.news.R
 import com.oybekdev.news.presentation.onboarding.Dimens.MediumPadding1
 import com.oybekdev.news.presentation.onboarding.Dimens.MediumPadding2
-import com.oybekdev.news.presentation.onboarding.Page
-import com.oybekdev.news.presentation.onboarding.pages
+import com.oybekdev.news.presentation.onboarding.onboarding.Page
+import com.oybekdev.news.presentation.onboarding.onboarding.pages
 import com.oybekdev.news.ui.theme.NewsTheme
 
 @Composable
